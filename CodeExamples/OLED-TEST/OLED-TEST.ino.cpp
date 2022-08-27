@@ -1,5 +1,4 @@
 #include <Arduino.h>
-#line 1 "C:\\Users\\danny\\Documents\\Arduino\\OLED-TEST\\OLED-TEST.ino"
 #include <SPI.h>
 #include <Wire.h>
 #include <WiFi.h>
@@ -24,11 +23,6 @@ void display_scrolltext(void) {
   display.clearDisplay();
 }
 */
-#line 25 "C:\\Users\\danny\\Documents\\Arduino\\OLED-TEST\\OLED-TEST.ino"
-void setup();
-#line 42 "C:\\Users\\danny\\Documents\\Arduino\\OLED-TEST\\OLED-TEST.ino"
-void loop();
-#line 25 "C:\\Users\\danny\\Documents\\Arduino\\OLED-TEST\\OLED-TEST.ino"
 void setup() {
   Serial.begin(115200);
    if(!display.begin(SSD1306_SWITCHCAPVCC, 0x3C)) {
